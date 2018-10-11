@@ -7,9 +7,22 @@
 
   <body>
     <h1>Favorite Food</h1>
+    <h1>Hello <%= @num1 %></h1>
+    <h1>Hello <%= @num2 %></h1>
     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSwGoDVUDPLd8f_397Fp9BrLKlu-6msu0sSiT0LeEZQ8Ga2228z">
 
     <!-- Insert Your Form Below -->
+
+    <!-- <form method="POST" action="/food_form">
+      <label>What?</label>
+        <input type="text"></input> -->
+
+    <form method="POST" action="/food">
+      <p>Your Name: <input type="text" name="name"></p>
+      <p>Your Favorite Food: <input type="text" name="favorite_food"></p>
+      <input type="submit">
+    </form>
+
 
   </body>
 </html>
